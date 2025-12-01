@@ -1,0 +1,28 @@
+# FastAPI
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+
+# Database
+sqlalchemy>=2.0.0
+aiosqlite>=0.19.0
+
+# Vector search
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+
+# Text processing
+python-Levenshtein>=0.23.0
+regex>=2023.0
+
+# HTTP client (for LLM API)
+httpx>=0.25.0
+
+# OCR (for dictionary extraction)
+pdf2image>=1.16.0
+pytesseract>=0.3.10
+Pillow>=10.0.0
+
+# Utilities
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
